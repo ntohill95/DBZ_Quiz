@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="rectangle_margin">20dp</dimen>
-    <dimen name="question_size">25sp</dimen>
-    <dimen name="answer_size">20sp</dimen>
+    <dimen name="question_size">18sp</dimen>
+    <dimen name="answer_size">16sp</dimen>
 </resources>
