@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void onCheckboxClicked (View view) {
+    public void onCheckboxClicked(View view) {
         CheckBox CB9a = (CheckBox) findViewById(R.id.checkbox_9a);
         CheckBox CB9b = (CheckBox) findViewById(R.id.checkbox_9b);
         CheckBox CB9c = (CheckBox) findViewById(R.id.checkbox_9c);
@@ -83,7 +83,13 @@ public class MainActivity extends AppCompatActivity {
         checkAnswerForGroup(this.radioGroupQ8, "None");
         checkAnswerForGroup(this.radioGroupQ10, "1000 years");
 
-        Toast.makeText(MainActivity.this, "Your total score is " + (Integer.toString(totalScore) + "/10"), Toast.LENGTH_LONG).show();
+        if(totalScore > 0) {
+            Toast.makeText(MainActivity.this, "Your total score is " + (Integer.toString(totalScore) + "/10"), Toast.LENGTH_LONG).show();
+        }
+        else{
+            Toast.makeText(MainActivity.this, "You got them all wrong! Try again!", Toast.LENGTH_LONG).show();
+        }
+
         totalScore = 0;
 
     }
