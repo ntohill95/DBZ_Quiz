@@ -41,15 +41,16 @@
     <string name="q8b">Janemba</string>
     <string name="q8c">Son Kun</string>
     <string name="q8d">None</string>
-    <string name="question9"><b>"Q9. Who among the following never performed Regeneration in Dragon Ball Series?"</b></string>
+    <string name="question9"><b>"Q9. Who among the following appears in a Dragon Ball Series? Tick all that apply"</b></string>
     <string name="q9a">Goku</string>
     <string name="q9b">Piccolo</string>
     <string name="q9c">Cell</string>
-    <string name="q9d">None</string>
+    <string name="q9d">Jasper</string>
     <string name="question10"><b>"Q10. According to Saiyan history, in how many years does a "Legendary Super Saiyan" appear?"</b></string>
     <string name="q10a">100 years</string>
     <string name="q10b">1000 years</string>
     <string name="q10c">500 years</string>
     <string name="q10d">1500 years</string>
     <string name="submit">Submit</string>
+    <string name="hint">Enter Answer</string>
 </resources>

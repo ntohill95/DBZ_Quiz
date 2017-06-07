@@ -155,47 +155,13 @@
                     android:textAppearance="@style/question_style"
                     android:textSize="@dimen/question_size"
                     android:gravity="center"/>
-                <RadioGroup
-                    android:id="@+id/q3group"
-                    android:layout_width="wrap_content"
+                <EditText
+                    android:id="@+id/name_view"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
-                    <RadioButton
-                        android:id="@+id/q3a"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/q3a"
-                        android:textSize="@dimen/answer_size"
-                        android:textAppearance="@style/answer_style"/>
-                    <RadioButton
-                        android:id="@+id/q3b"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/q3b"
-                        android:textSize="@dimen/answer_size"
-                        android:textAppearance="@style/answer_style"/>
-                    <RadioButton
-                        android:id="@+id/q3c"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/q3c"
-                        android:textSize="@dimen/answer_size"
-                        android:textAppearance="@style/answer_style"/>
-                    <RadioButton
-                        android:id="@+id/q3d"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/q3d"
-                        android:textSize="@dimen/answer_size"
-                        android:textAppearance="@style/answer_style"/>
-                    <RadioButton
-                        android:id="@+id/q3e"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/q3e"
-                        android:textSize="@dimen/answer_size"
-                        android:textAppearance="@style/answer_style"/>
-                </RadioGroup>
+                    android:hint="@string/hint"
+                     android:inputType="textMultiLine"
+                     />
             </LinearLayout>
         </android.support.v7.widget.CardView>
 
@@ -516,40 +482,26 @@
                     android:textAppearance="@style/question_style"
                     android:textSize="@dimen/question_size"
                     android:gravity="center"/>
-                <RadioGroup
-                    android:id="@+id/q9group"
+                <CheckBox android:id="@+id/checkbox_9a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
-                    <RadioButton
-                        android:id="@+id/q9a"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/q9a"
-                        android:textSize="@dimen/answer_size"
-                        android:textAppearance="@style/answer_style"/>
-                    <RadioButton
-                        android:id="@+id/q9b"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/q9b"
-                        android:textSize="@dimen/answer_size"
-                        android:textAppearance="@style/answer_style"/>
-                    <RadioButton
-                        android:id="@+id/q9c"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/q9c"
-                        android:textSize="@dimen/answer_size"
-                        android:textAppearance="@style/answer_style"/>
-                    <RadioButton
-                        android:id="@+id/q9d"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/q9d"
-                        android:textSize="@dimen/answer_size"
-                        android:textAppearance="@style/answer_style"/>
-                </RadioGroup>
+                    android:text="@string/q9a"
+                    android:onClick="onCheckboxClicked"/>
+                <CheckBox android:id="@+id/checkbox_9b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/q9b"
+                    android:onClick="onCheckboxClicked"/>
+                <CheckBox android:id="@+id/checkbox_9c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/q9c"
+                    android:onClick="onCheckboxClicked"/>
+                <CheckBox android:id="@+id/checkbox_9d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/q9d"
+                    android:onClick="onCheckboxClicked"/>
             </LinearLayout>
         </android.support.v7.widget.CardView>
 
